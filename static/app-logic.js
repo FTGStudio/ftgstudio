@@ -20,25 +20,10 @@ $(function () {
 	 */
 
 	$.backstretch([
-		// "assets/img/background/polygon/1.jpg",
-		// "assets/img/background/polygon/2.jpg",
-		// "assets/img/background/polygon/3.jpg",
-		// "assets/img/background/polygon/4.jpg",
-		// "assets/img/background/polygon/5.jpg",
-		// "assets/img/background/polygon/6.jpg",
-		// "assets/img/background/polygon/7.jpg"
-		//"assets/img/background/space/1.jpg",
-//		"assets/img/background/space/2.jpg",
-//		"assets/img/background/space/3.jpg",
-//		"assets/img/background/space/4.jpg",
-//		"assets/img/background/space/5.jpg",
-//		"assets/img/background/space/6.jpg",
-//		"assets/img/background/space/7.jpg",
-//		"assets/img/background/space/8.jpg",
-//		"assets/img/background/space/9.jpg",
-//		"assets/img/background/space/10.jpg",
-		"assets/img/background/space/11.jpg",
-		"assets/img/background/space/12.jpg"
+		"static/image_1.jpg",
+		"static/image_2.jpg",
+		"static/image_3.jpg",
+		"static/image_4.jpg",
 	], {duration: 3800, fade: 1500});
 
 	/* ---------------------------------------------------------
@@ -158,37 +143,6 @@ $(function () {
 		}
 	});
 
-
-	/* ---------------------------------------------------------
-	 *	Twitter
-	 */
-
-	twitterFetcher.fetch({
-	  "id": '577664358739795968',
-	  "domId": '',
-	  "maxTweets": 3,
-	  "enableLinks": true,
-	  "showInteraction": false,
-	  "showUser": false,
-	  "customCallback": function handleTweets(tweets){
-			var x = tweets.length,
-				n = 0,
-				tweetsHtml = '<ul class="twitterFeed">';
-
-			while(n < x) {
-				tweetsHtml += '<li>' + tweets[n] + '</li>';
-				n++;
-			}
-
-			tweetsHtml += '</ul>';
-			$('#twitterFeed').html(tweetsHtml);
-
-			$(".twitterFeed").bxSlider({
-				nextText: "",
-				prevText: ""
-			});
-		}
-	});
 
 	/*
 	 * Navigation

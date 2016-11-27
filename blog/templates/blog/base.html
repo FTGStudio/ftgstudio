@@ -18,6 +18,18 @@
     <link href="{% static 'animate.css' %}" rel="stylesheet" media="screen">
     <link href="{% static 'prism.css' %}" rel="stylesheet" media="screen">
 
+    <!-- Font Awesome -->
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+    <script src="https://use.fontawesome.com/08a79aadf0.js"></script>
+    <link href="https://use.fontawesome.com/08a79aadf0.css" media="all" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700|Righteous|EB+Garamond&amp;subset=latin,latin-ext,cyrillic" rel="stylesheet" type="text/css">
+
+    <script src="{% static 'pace.min.js' %}"></script>
+    <script src="{% static 'modernizr.min.js' %}"></script>
+
+
 </head>
 <body data-spy="scroll" data-target="#nav" data-offset="80" class=" pace-done">
 <div class="pace  pace-inactive">
@@ -30,9 +42,9 @@
 <nav class="navbar navbar-default" role="navigation" id="nav">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-                <img class="logo" src="" alt="Logo">
-            </a>
+            <!--<a class="navbar-brand" href="#">-->
+                <!--<img class="logo" src="" alt="Logo">-->
+            <!--</a>-->
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <i class="fa fa-reorder"></i>
@@ -62,7 +74,7 @@
                 <p>
                 </p>
                 <h3>
-                    <span class="rotate" style="text-shadow: black 0px 0px 0px; opacity: 1;">Engineer,Hiker,Scientist,Brewer,Backpacker</span>
+                    <span class="rotate" style="text-shadow: black 0px 0px 0px; opacity: 1;">Engineer,Musician,Explorer,Mathematician</span>
                 </h3>
 
                 <p></p>
@@ -87,7 +99,7 @@
         <div class="row mt20">
             <div class="col-sm-4 wow fadeInLeft animated" data-wow-duration="0.7s" data-wow-delay="0s"
                  style="visibility: visible; animation-duration: 0.7s; animation-delay: 0s; animation-name: fadeInLeft;">
-                <img src="" class="img-responsive about-img">
+                <img src="{% static 'me.jpg' %}" class="img-responsive about-img">
             </div>
             <div class="col-sm-8 wow fadeInRight animated" data-wow-duration="0.7s" data-wow-delay="0s"
                  style="visibility: visible; animation-duration: 0.7s; animation-delay: 0s; animation-name: fadeInRight;">
@@ -100,12 +112,12 @@
                     as well as developing firmware for testing.
                 </p>
                 <p>
-                    On the side I contribute to my blog<a href="#">ftgstudio.com</a>, it's a blog about life, technology,
+                    On the side I contribute to my blog <a href="#">ftgstudio.com</a>, it's a blog about life, technology,
                     and music.
                 </p>
                 <p>
                     Being a Michigan native I enjoy everything the Greate Lakes state has to offer.  This includes long
-                    days at the beach, dir biking, hiking, camping, fishing, hunting, snowmobiling, snowboarding...pretty
+                    days at the beach, dirt biking, hiking, camping, fishing, hunting, snowmobiling, snowboarding...pretty
                     much anything that involves being outdoors.
                 </p>
                 <p>
@@ -124,21 +136,20 @@
 </section>
 
 <!-- Blog -->
-<section id="blog" class="section section-solid-yellow">
+<section id="blog" class="section section-solid-blue">
     <div class="container">
         <div class="row mt20">
-            <div class="col-sm-8 wow fadeInLeft animated" data-wow-duration="0.7s" data-wow-delay="0s"
+            <div class="col-sm-12 wow fadeInLeft animated" data-wow-duration="0.7s" data-wow-delay="0s"
                  style="visibility: visible; animation-duration: 0.7s; animation-delay: 0s; animation-name: fadeInLeft;">
-                <h3 class="section-title-blog"><a href="https://microamps.gibsjose.com" target="_blank">microamps</a>
+                <h3 class="section-title-blog"><a href="" target="_blank">FTGStudio</a>
                 </h3>
-                <pre class=" language-none"><code class=" microamps-codeblock language-none">Microamps is a blog about
-                    computer science, security, and engineering.<br><br><br><br><br><br></code></pre>
+                <pre class=" language-none"><code class=" microamps-codeblock language-none">FTGStudio is a blog about Computer Engineering, Music, Technology.<br><br><br><br><br><br></code></pre>
             </div>
 
-            <div class="col-sm-4 wow fadeInRight animated" data-wow-duration="0.7s" data-wow-delay="0s"
+            <div class="col-sm-12 wow fadeInRight animated" data-wow-duration="0.7s" data-wow-delay="0s"
                  style="visibility: visible; animation-duration: 0.7s; animation-delay: 0s; animation-name: fadeInRight;">
                 <a href="https://microamps.gibsjose.com" target="_blank"><img
-                        src="//www.gibsjose.com/assets/img/blog/microamps_grey.png" class="img-responsive blog-img"></a>
+                        src="" class="img-responsive blog-img"></a>
             </div>
         </div>
     </div>
@@ -168,7 +179,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <h3 class="resume-pdf">Download resume as a <a
-                        href="//www.gibsjose.com/assets/pdf/Resume - Joe Gibson.pdf" target="_blank">PDF</a></h3>
+                        href="" target="_blank">PDF</a></h3>
             </div>
         </div>
         <div class="row">
@@ -196,6 +207,15 @@
 
                                 <ul>
                                     <i class="fa fa-caret-right"></i>
+                                    MQTT Client & Server Development
+                                    <li>
+                                        Developed a client & server that allowed for communication between embedded devices for a lighting
+                                        controls system
+                                    </li>
+                                    <li>
+                                        The application for the client & server was developed with C# using Visual studio, and is actively used
+                                        to monitor an IoT system, <a href="http://www.twisthdm.com/">Limelight</a>, that is utilized for lighting control
+                                    </li>
                                 </ul>
 
                                 <ul>
@@ -255,7 +275,7 @@
                         <time class="v-time wow fadeInLeft animated" data-wow-duration="0.7s" data-wow-delay="0.5s"
                               datetime="2013-04-18"
                               style="visibility: visible; animation-duration: 0.7s; animation-delay: 0.5s; animation-name: fadeInLeft;">
-                            <span>2010 - 2015</span></time>
+                            <span>2011 - 2017</span></time>
                         <div class="v-icon" data-toggle="collapse" data-target="#toggle-5"><i class="fa fa-plus"></i>
                         </div>
                         <div class="v-label wow fadeInRight animated" data-wow-duration="0.7s" data-wow-delay="0.5s"
@@ -265,92 +285,39 @@
                             </a></h4>
                             <div id="toggle-5" class="collapse">
                                 <h4>Grand Valley State University - Allendale, MI</h4>
-
-                                <p></p><h5><b>GPA: 3.957</b></h5>
                                 <p></p>
 
                                 <p></p><h5><b>Awards</b></h5>
                                 <p></p>
                                 <ul>
-                                    <i class="fa fa-caret-right"></i> ASEE CEED National Co-op Student of the Year: 2014
-                                </ul>
-                                <ul>
-                                    <i class="fa fa-caret-right"></i> Academic Excellence Award in Computer Engineering:
-                                    2015
-                                </ul>
-                                <ul>
-                                    <i class="fa fa-caret-right"></i> Oustanding Co-op Student: 2015
-                                </ul>
-                                <ul>
-                                    <i class="fa fa-caret-right"></i> Oustanding Senior in Computer Engineering: 2015
-                                </ul>
-                                <ul>
                                     <i class="fa fa-caret-right"></i> Dean's List
                                 </ul>
-                                <ul>
-                                    <i class="fa fa-caret-right"></i> FIRST Robotics Engineering Scholarship
-                                </ul>
-                                <ul>
-                                    <i class="fa fa-caret-right"></i> Award for Excellence Scholarship
-                                </ul>
-                                <ul>
-                                    <i class="fa fa-caret-right"></i> Faculty Award of Distinction Scholarship
-                                </ul>
 
-                                <p></p><h5><b>Extracurricular Activities</b></h5>
+                                <p></p><h5><b>Relavent Courses</b></h5>
                                 <p></p>
-                                <ul>
-                                    <i class="fa fa-caret-right"></i> Tau Beta Pi Engineering Honor Society: 2013 - 2015
-                                </ul>
-                                <ul>
-                                    <i class="fa fa-caret-right"></i> President of Spanish Club 'La Tertulia': 2011 -
-                                    2014
-                                </ul>
-                                <ul>
-                                    <i class="fa fa-caret-right"></i> President and Co-Founder of Brewing Science and
-                                    Technology Club: 2013 - 2015
-                                </ul>
-                                <ul>
-                                    <i class="fa fa-caret-right"></i> Vice President of Hardware, Computer Science Club:
-                                    2012 - 2015
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <time class="v-time wow fadeInLeft animated" data-wow-duration="0.7s" data-wow-delay="0.6s"
-                              datetime="2013-04-18"
-                              style="visibility: visible; animation-duration: 0.7s; animation-delay: 0.6s; animation-name: fadeInLeft;">
-                            <span><!-- empty looks better... --></span></time>
-                        <div class="v-icon" data-toggle="collapse" data-target="#toggle-6" aria-expanded="true"><i
-                                class="fa fa-minus"></i></div>
-                        <div class="v-label wow fadeInRight animated" data-wow-duration="0.7s" data-wow-delay="0.6s"
-                             style="visibility: visible; animation-duration: 0.7s; animation-delay: 0.6s; animation-name: fadeInRight;">
-                            <h4><a class="resume-label" href="#" data-toggle="collapse" data-target="#toggle-6">
-                                Relevant Courses
-                            </a></h4>
-                            <div id="toggle-6" class="collapse in" aria-expanded="true">
-                                <ul><i class="fa fa-check"></i> Operating Systems</ul>
-                                <ul><i class="fa fa-check"></i> Data Communications</ul>
-                                <ul><i class="fa fa-check"></i> Data Structures and Algorithms</ul>
-                                <ul><i class="fa fa-check"></i> Software Engineering</ul>
-                                <ul><i class="fa fa-check"></i> System Programming</ul>
-                                <ul><i class="fa fa-check"></i> Structured Programming in C</ul>
-                                <ul><i class="fa fa-check"></i> Java I and II</ul>
-                                <ul><i class="fa fa-check"></i> Digital Systems</ul>
-                                <ul><i class="fa fa-check"></i> Embedded System Design</ul>
-                                <ul><i class="fa fa-check"></i> Design of Microcontroller Applications</ul>
-                                <ul><i class="fa fa-check"></i> Integrated Circuit System Design</ul>
-                                <ul><i class="fa fa-check"></i> Probability and Signal Analysis</ul>
-                                <ul><i class="fa fa-check"></i> Statistical Modelling for Engineers</ul>
-                                <ul><i class="fa fa-check"></i> Engineering Measurement and Data Analysis</ul>
-                                <ul><i class="fa fa-check"></i> Circuit Analysis I and II</ul>
-                                <ul><i class="fa fa-check"></i> Electronic Circuits I</ul>
-                                <ul><i class="fa fa-check"></i> Computer Aided Design and Manufacturing</ul>
-                                <ul><i class="fa fa-check"></i> Calculus I, II, and III</ul>
-                                <ul><i class="fa fa-check"></i> Linear Algebra and Differential Equations</ul>
-                                <ul><i class="fa fa-check"></i> Engineering Physics I and II</ul>
-                                <ul><i class="fa fa-check"></i> Senior Engineering Project I and II</ul>
+                                <div id="toggle-6" class="collapse in" aria-expanded="true">
+                                    <ul><i class="fa fa-check"></i> Operating Systems</ul>
+                                    <ul><i class="fa fa-check"></i> Data Communications</ul>
+                                    <ul><i class="fa fa-check"></i> Data Structures and Algorithms</ul>
+                                    <ul><i class="fa fa-check"></i> Software Engineering</ul>
+                                    <ul><i class="fa fa-check"></i> System Programming</ul>
+                                    <ul><i class="fa fa-check"></i> Structured Programming in C</ul>
+                                    <ul><i class="fa fa-check"></i> Java I and II</ul>
+                                    <ul><i class="fa fa-check"></i> Digital Systems</ul>
+                                    <ul><i class="fa fa-check"></i> Embedded System Design</ul>
+                                    <ul><i class="fa fa-check"></i> Design of Microcontroller Applications</ul>
+                                    <ul><i class="fa fa-check"></i> Integrated Circuit System Design</ul>
+                                    <ul><i class="fa fa-check"></i> Probability and Signal Analysis</ul>
+                                    <ul><i class="fa fa-check"></i> Statistical Modelling for Engineers</ul>
+                                    <ul><i class="fa fa-check"></i> Engineering Measurement and Data Analysis</ul>
+                                    <ul><i class="fa fa-check"></i> Circuit Analysis I and II</ul>
+                                    <ul><i class="fa fa-check"></i> Electronic Circuits I</ul>
+                                    <ul><i class="fa fa-check"></i> Computer Aided Design and Manufacturing</ul>
+                                    <ul><i class="fa fa-check"></i> Calculus I, II, and III</ul>
+                                    <ul><i class="fa fa-check"></i> Linear Algebra and Differential Equations</ul>
+                                    <ul><i class="fa fa-check"></i> Engineering Physics I and II</ul>
+                                    <ul><i class="fa fa-check"></i> Senior Engineering Project I and II</ul>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -376,36 +343,43 @@
                 <h5>C</h5>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 80%;">
-                        80%
+                         aria-valuemax="100" style="width: 100%;">
+                        5 years
                     </div>
                 </div>
                 <h5>C++</h5>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 75%;">
-                        75%
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                         aria-valuemax="100" style="width: 100%;">
+                         5 years
+                    </div>
+                </div>
+                <h5>C#</h5>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                         aria-valuemax="100" style="width: 100%;">
+                        5 years
+                    </div>
+                </div>
+                <h5>Javascript/jQuery</h5>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                         aria-valuemax="100" style="width: 100%;">
+                        5 years
                     </div>
                 </div>
                 <h5>Python</h5>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 70%;">
-                        70%
+                         aria-valuemax="100" style="width: 90%;">
+                        4 years
                     </div>
                 </div>
                 <h5>Bash</h5>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 70%;">
-                        70%
-                    </div>
-                </div>
-                <h5>LaTeX</h5>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 60%;">
-                        60%
+                         aria-valuemax="100" style="width: 90%;">
+                        4 years
                     </div>
                 </div>
                 <br>
@@ -413,8 +387,8 @@
                 <h5>VHDL</h5>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 50%;">
-                        50%
+                         aria-valuemax="100" style="width: 25%;">
+                        1 year
                     </div>
                 </div>
             </div>
@@ -422,71 +396,70 @@
                  style="visibility: visible; animation-duration: 0.7s; animation-delay: 0s; animation-name: fadeInRight;">
                 <h4>Software Skills</h4>
                 <ul class="fa-ul skills-ul">
-                    <!-- Three Stars -->
                     <li>
-                        <span class="stars stars-three"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                class="fa fa-star"></i>&nbsp;</span>
                         <code class=" language-bash"><span class="token function">git</span></code> Version Control
                     </li>
-                    <!-- Two and a Half Stars -->
                     <li>
-                        <span class="stars stars-two-half"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                class="fa fa-star-half-o"></i>&nbsp;</span>
                         Algorithm design and optimization
                     </li>
                     <li>
-                        <span class="stars stars-two-half"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                class="fa fa-star-half-o"></i>&nbsp;</span>
                         OS X and Linux Systems Programming
                     </li>
                     <li>
-                        <span class="stars stars-two-half"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                class="fa fa-star-half-o"></i>&nbsp;</span>
                         Unix Terminal (<code class=" language-bash"><span class="token function">make</span></code>,
                         <code class=" language-bash">gdb</code>, <code class=" language-bash"><span
                             class="token function">ssh</span></code>, etc.)
                     </li>
-                    <!-- Two Stars -->
                     <li>
-                        <span class="stars stars-two"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                class="fa fa-star-o"></i>&nbsp;</span>
                         Perl, Awk, and Sed
                     </li>
                     <li>
-                        <span class="stars stars-two"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                class="fa fa-star-o"></i>&nbsp;</span>
                         ARM Assembly Language
                     </li>
                     <li>
-                        <span class="stars stars-two"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                class="fa fa-star-o"></i>&nbsp;</span>
                         FPGAs (VHDL, Active HDL, LabVIEW)
                     </li>
                     <li>
-                        <span class="stars stars-two"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                class="fa fa-star-o"></i>&nbsp;</span>
                         Adobe Illustrator
                     </li>
-                    <!-- One Star -->
                     <li>
-                        <span class="stars stars-one"><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i
-                                class="fa fa-star-o"></i>&nbsp;</span>
                         HTML, CSS, PHP
                     </li>
                     <li>
-                        <span class="stars stars-one"><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i
-                                class="fa fa-star-o"></i>&nbsp;</span>
                         JavaScript, jQuery
                     </li>
                     <li>
-                        <span class="stars stars-one"><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i
-                                class="fa fa-star-o"></i>&nbsp;</span>
                         Objective-C (iOS and OS X with Xcode)
                     </li>
                     <li>
-                        <span class="stars stars-one"><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i
-                                class="fa fa-star-o"></i>&nbsp;</span>
-                        Android Apps (Android Studio)
+                        .NET
+                    </li>
+                    <li>
+                        Django
+                    </li>
+                </ul>
+                <h4>Software Environments</h4>
+                <ul class="fa-ul skills-ul">
+                    <li>
+                        Eclipse
+                    </li>
+                    <li>
+                        PyCharm
+                    </li>
+                    <li>
+                        Visual Studio
+                    </li>
+                    <li>
+                        MATLAB/Simulink
+                    </li>
+                    <li>
+                        MPLab
+                    </li>
+                    <li>
+                        Atmel Studio
+                    </li>
+                    <li>
+                        Arduino
                     </li>
                 </ul>
             </div>
@@ -496,16 +469,14 @@
                  style="visibility: visible; animation-duration: 0.7s; animation-delay: 0.1s; animation-name: fadeInLeft;">
                 <h4>Hardware Skills</h4>
                 <ul class="fa-ul skills-ul">
-                    <li><i class="fa-li fa fa-check"></i>PCB Schematic Design and Board Layout (Altium, Eagle, KiCad)
+                    <li><i class="fa-li fa fa-check"></i>PCB Schematic Design and Board Layout (Eagle)
                     </li>
-                    <li><i class="fa-li fa fa-check"></i>SPICE Simulation (LTspice)</li>
-                    <li><i class="fa-li fa fa-check"></i>Space Systems and Sub-orbital Telescopes</li>
-                    <li><i class="fa-li fa fa-check"></i>Ruggedized Computers</li>
-                    <li><i class="fa-li fa fa-check"></i>Avionics Systems</li>
                     <li><i class="fa-li fa fa-check"></i>Oscilloscopes, Multimeters, and Function Generators</li>
+                    <li><i class="fa-li fa fa-check"></i>SPICE Simulation (LTspice)</li>
                     <li><i class="fa-li fa fa-check"></i>Embedded System Design</li>
                     <li><i class="fa-li fa fa-check"></i>Regulator Design</li>
-                    <li><i class="fa-li fa fa-check"></i>Robotics</li>
+                    <li><i class="fa-li fa fa-check"></i>Amplifier Design</li>
+                    <li><i class="fa-li fa fa-check"></i>Power Supply Design</li>
                 </ul>
             </div>
             <div class="col-sm-6 wow fadeInRight animated" data-wow-duration="0.7s" data-wow-delay="0.1s"
@@ -514,8 +485,10 @@
                 <ul class="fa-ul skills-ul">
                     <li><i class="fa-li fa fa-check"></i>Time- and Frequency-Domain Circuit Analysis</li>
                     <li><i class="fa-li fa fa-check"></i>Electromagnetic Physics</li>
-                    <li><i class="fa-li fa fa-check"></i>Astrophysics/Cosmology</li>
-                    <li><i class="fa-li fa fa-check"></i>Particle Physics</li>
+                    <li><i class="fa-li fa fa-check"></i>Combinatorics</li>
+                    <li><i class="fa-li fa fa-check"></i>Advanced Statistical Modeling</li>
+                    <li><i class="fa-li fa fa-check"></i>Camera/Lens Design</li>
+                    <li><i class="fa-li fa fa-check"></i>Physics/Game Engines</li>
                 </ul>
             </div>
         </div>
@@ -538,48 +511,23 @@
                 <div class="lang-container">
                     <div style="display:inline;width:100px;height:100px;">
                         <canvas width="100" height="100"></canvas>
-                        <input type="text" value="100" class="dial" data-width="100" data-height="100"
+                        <input type="text" value="50" class="dial" data-width="100" data-height="100"
                                data-fgcolor="#2b9fe9" data-skin="tron" data-thickness=".2" data-displayprevious="true"
                                data-readonly="true" readonly="readonly"
                                style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; background: none; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(43, 159, 233); padding: 0px; -webkit-appearance: none;">
                     </div>
                     <p class="lang-description">Spanish</p>
-                    <span class="lang-level">fluent</span>
+                    <span class="lang-level">Intermediate</span>
                 </div>
 
-                <div class="lang-container">
-                    <div style="display:inline;width:100px;height:100px;">
-                        <canvas width="100" height="100"></canvas>
-                        <input type="text" value="40" class="dial" data-width="100" data-height="100"
-                               data-fgcolor="#2b9fe9" data-skin="tron" data-thickness=".2" data-displayprevious="true"
-                               data-readonly="true" data-bgcolor="#fff" readonly="readonly"
-                               style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; background: none; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(43, 159, 233); padding: 0px; -webkit-appearance: none;">
-                    </div>
-                    <p class="lang-description">French</p>
-                    <span class="lang-level">intermediate</span>
-                </div>
-
-                <div class="lang-container">
-                    <div style="display:inline;width:100px;height:100px;">
-                        <canvas width="100" height="100"></canvas>
-                        <input type="text" value="15" class="dial" data-width="100" data-height="100"
-                               data-fgcolor="#2b9fe9" data-skin="tron" data-thickness=".2" data-displayprevious="true"
-                               data-readonly="true" data-bgcolor="#fff" readonly="readonly"
-                               style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; background: none; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(43, 159, 233); padding: 0px; -webkit-appearance: none;">
-                    </div>
-                    <p class="lang-description">Russian</p>
-                    <span class="lang-level">basic</span>
-                </div>
             </div>
             <div class="col-sm-4 wow fadeInRight animated" data-wow-duration="0.7s" data-wow-delay="0.1s"
                  style="visibility: visible; animation-duration: 0.7s; animation-delay: 0.1s; animation-name: fadeInRight;">
                 <h4>Hobbies</h4>
                 <ul class="fa-ul skills-ul">
-                    <li><i class="fa-li fa fa-plane"></i>Language, travel, and culture</li>
-                    <li><i class="fa-li fa fa-music"></i>Classical, Spanish flamenco, and jazz guitar</li>
-                    <li><i class="fa-li fa fa-tree"></i>Mountain climbing, hiking, and backpacking</li>
-                    <li><i class="fa-li fa fa-flask"></i>Brewing chemistry and technology</li>
-                    <li><i class="fa-li fa fa-beer"></i>Member of NASA Zymernauts Brewing Club</li>
+                    <li><i class="fa-li fa fa-motorcycle"></i>Dirt Biking</li>
+                    <li><i class="fa-li fa fa-music"></i>Drums, Guitar, Piano</li>
+                    <li><i class="fa-li fa fa-hand-rock-o"></i>Rock Climbing/Bouldering</li>
                 </ul>
             </div>
         </div>
@@ -595,12 +543,12 @@
                 <div class="section-title-border"></div>
             </div>
         </div>
-        <div class="row">
+        <div class="row" style="text-align: center;">
             <div class="col-sm-12 wow fadeInDown animated" data-wow-duration="0.7s" data-wow-delay="0s"
                  style="visibility: visible; animation-duration: 0.7s; animation-delay: 0s; animation-name: fadeInDown;">
                 <p>
                 </p><h4>
-                <i class="fa fa-fw fa-envelope-o fa-md"></i>&nbsp;&nbsp;<a href="mailto:gibsjose@mail.gvsu.edu">gibsjose@mail.gvsu.edu</a>
+                <i class="fa fa-fw fa-envelope-o fa-md"></i>&nbsp;&nbsp;<a href="mailto:doranm@mail.gvsu.edu">doranm@mail.gvsu.edu</a>
             </h4>
 
             </div>
@@ -611,14 +559,12 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-sm-6"><img width="32 px" src="assets/img/favicon/favicon.ico" alt="Icon"> Copyright © 2016
-                Gibsjose. All rights reserved.
+            <div class="col-sm-6"> Copyright © 2016
+                Michael Doran. All rights reserved.
             </div>
             <div class="col-sm-6 text-right">
                 <div class="social">
-                    <a href="https://keybase.io/gibsjose" class="btn btn-theme"><i class="fa fa-key"></i></a>
-                    <a href="https://github.com/gibsjose" class="btn btn-theme"><i class="fa fa-github"></i></a>
-                    <a href="https://twitter.com/gibsjose" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
+                    <a href="https://github.com/ftgstudio" class="btn btn-theme"><i class="fa fa-github"></i></a>
                 </div>
             </div>
         </div>
@@ -631,9 +577,9 @@
 <div class="backstretch"
      style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 658px; width: 658px; z-index: -999999; position: fixed;">
     <img style="position: absolute; margin: 0px; padding: 0px; border: none; width: 950.609px; height: 658px; max-height: none; max-width: none; z-index: -999999; left: -146.305px; top: 0px;"
-         src="assets/img/background/space/10.jpg" class="deleteable"><img
+         src="{% static 'image_1.jpg' %}" class="deleteable"><img
         style="position: absolute; display: none; margin: 0px; padding: 0px; border: none; width: auto; height: auto; max-height: none; max-width: none; z-index: -999999;"
-        src="assets/img/background/space/11.jpg"></div>
+        src="{% static 'image_2.jpg' %}"></div>
 </body>
 <script type="text/javascript" charset="utf8" src="{% static 'jquery-3.1.1.js' %}"></script>
 <script type="text/javascript" charset="utf8" src="{% static 'bootstrap/js/bootstrap.js' %}"></script>

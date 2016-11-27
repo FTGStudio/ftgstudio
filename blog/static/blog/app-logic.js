@@ -37,8 +37,8 @@ $(function () {
 //		"assets/img/background/space/8.jpg",
 //		"assets/img/background/space/9.jpg",
 //		"assets/img/background/space/10.jpg",
-		"assets/img/background/space/11.jpg",
-		"assets/img/background/space/12.jpg"
+//		"blog/image_1.jpg",
+//		"assets/img/background/space/12.jpg"
 	], {duration: 3800, fade: 1500});
 
 	/* ---------------------------------------------------------
